@@ -90,7 +90,7 @@ a {
     background: rgb(252, 252, 252);
 }
 input:focus{
-    background-color: brown;
+    background-color: rgb(243, 237, 237);
 }
 .labelRecherche {
     width: 10%;
