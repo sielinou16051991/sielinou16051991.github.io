@@ -7,6 +7,38 @@
     --padding-left: 2em;
     --padding-top: 2em;
     --transition: .5 ease;
+    /*--------------left-------------*/
+    --div-left-width: 220px;
+    --div-left-heigth: 200px;
+    --img-left-width: 200px;
+    --img-left-heigth: 90px;
+    /*--------------rigth-------------*/
+    --div-rigth-width: 350px;
+    --div-rigth-heigth: 150px;
+    --img-rigth-width: 95%;
+    --img-rigth-heigth: 135px;
+    /*---------------variable pour le telephone-------------*/
+    /*------left---------------*/
+    --phone-div-left-width: 350px;
+    --phone-div-left-heigth: 250px;
+    --phone-img-left-width: 330px;
+    --phone-img-left-heigth: 140px;
+    /*---------------rigth-------*/
+    --phone-div-rigth-width: 350px;
+    --phone-div-rigth-heigth: 150px;
+    --phone-img-rigth-width: 95%;
+    --phone-img-rigth-heigth: 135px;
+    /*---------------variable pour la tablette-------------*/
+    /*------left---------------*/
+    --tablette-div-left-width: 180px;
+    --tablette-div-left-heigth: 160px;
+    --tablette-img-left-width: 160px;
+    --tablette-img-left-heigth: 50px;
+    /*---------------rigth-------*/
+    --tablette-div-rigth-width: 350px;
+    --tablette-div-rigth-heigth: 150px;
+    --tablette-img-rigth-width: 95%;
+    --tablette-img-rigth-heigth: 135px;
 }
 /*
 body {
@@ -96,7 +128,7 @@ input:focus{
 .labelRecherche {
     width: 10%;
     padding: .25em;
-    border-radius: 0% 15% 15% 0% ;
+    border-radius: 0% 15px 15px 0% ;
     background: #0065FC;
     color: aliceblue;
     font-size: 180%;
@@ -132,7 +164,7 @@ input:focus{
     display: flex;
     background: #fbfcfd;
     height: 25%;
-    border-radius: 2em;
+    border-radius: 50px;
     border: .1em solid #c8cacc;
 }
 .filter_contern:hover{
@@ -148,7 +180,7 @@ input:focus{
 }
 .filter_icon {
     background: #c8cacc;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 100px;
     font-size: 100%;
     padding: 1em;
     width: 2em;
@@ -165,8 +197,8 @@ input:focus{
 }
 .filter_text {
     padding: 1em;
-font-size: 1em;
-font-family: 'Raleway';
+    font-size: 1em;
+    font-family: 'Raleway';
 }
 .info {
     display: flex;
@@ -174,7 +206,7 @@ font-family: 'Raleway';
 }
 .info_icon {
     border: .1em solid #c8cacc;
-    border-radius: 100% 100% 100% 100%;
+    border-radius: 100px;
     height: 1.5em;
     width: 1.5em;
     margin-right: 1em;
@@ -205,7 +237,7 @@ font-family: 'Raleway';
 .showcase_left {
     float: left;
     background: #eef1f3;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 30px;
     padding-left: 2em;
 }
 .title_showcase_left {
@@ -217,10 +249,10 @@ font-family: 'Raleway';
 .showcase_left_bloc > div {
     float: left;
     margin: 1em;
-    width: 220px;
-    height: 200px;
+    width: var(--div-left-width);
+    height: var(--div-left-heigth);
     background: #faf8f8;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 25px;
     transition: var(--transition);
 }
 .showcase_left_bloc > div:hover{
@@ -229,10 +261,10 @@ font-family: 'Raleway';
     box-shadow: 5px 2px 10px;
 }
 .showcase_left_bloc > div > a > img {
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 20px 20px 0px 0px;
     margin: .5em;
-    width: 200px;
-    height: 90px;
+    width: var(--img-left-width);
+    height: var(--img-left-heigth);
 }
 .showcase_left_bloc_text {
     display: flex;
@@ -294,9 +326,9 @@ font-family: 'Raleway';
 .showcase_rigth {
     float: left;
     background: #eef1f3;
-    border-radius: 5% 5% 5% 5%;
-    margin-top: 1em;
+    border-radius: 30px;
     margin-left: 3em;
+    margin-right: 2em;
     padding-top: .5em;
     padding-bottom: calc(1em - 2em);
 }
@@ -305,11 +337,11 @@ font-family: 'Raleway';
 }
 .showcase_rigth_bloc > div{
     display: flex;
-    width: 350px;
-    height: 150px;
+    width: var(--div-rigth-width);
+    height: var(--div-rigth-heigth);
     margin: 1em;
     background: #faf8f8;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px;
 }
 .showcase_rigth_bloc > div:hover{
     opacity: .8;
@@ -323,10 +355,10 @@ font-family: 'Raleway';
 }
 .showcase_rigth_bloc > div > a > img {
     opacity: 1;
-    border-radius: 10% 0% 0% 10%;
+    border-radius: 20px 0px 0px 20px;
     margin: .5em;
-    width: 95%;
-    height: 135px;
+    width: var(--img-rigth-width);
+    height: var(--img-rigth-heigth);
     backface-visibility: hidden;
 }
 .p1 {
@@ -416,7 +448,6 @@ font-family: 'Raleway';
     .labelRecherche {
         width: 10%;
         padding: .25em;
-        border-radius: 15% 15% 15% 15% ;
         background: #0065FC;
         color: aliceblue;
         font-size: 180%;
@@ -450,22 +481,20 @@ font-family: 'Raleway';
 .showcase_left {
     flex-wrap: wrap;
     background: #eef1f3;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 10px 10px 10px 10px;
     padding-left: 1em;
 }
 .showcase_left_bloc > div {
     float: left;
     margin: 1em;
-    width: 180px;
-    height: 160px;
+    width: var(--tablette-div-left-width);
+    height: var(--tablette-div-left-heigth);
     background: #faf8f8;
-    border-radius: 10% 10% 10% 10%;
 }
 .showcase_left_bloc > div > a > img {
-    border-radius: 10% 10% 0% 0%;
     margin: .5em;
-    width: 160px;
-    height: 50px;
+    width: var(--tablette-img-left-width);
+    height: var(--tablette-img-left-heigth);
     transition: .5s ease;
 }
 /*------------------------------------ RIGTH -----------------------------*/
@@ -475,7 +504,7 @@ font-family: 'Raleway';
 .showcase_rigth {
     float: left;
     background: #eef1f3;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 10px;
     margin-top: 1em;
     margin-left: 3em;
     padding-top: .5em;
@@ -486,11 +515,11 @@ font-family: 'Raleway';
 }
 .showcase_rigth_bloc > div{
     display: flex;
-    width: 350px;
-    height: 150px;
+    width: var(--tablette-div-rigth-width);
+    height: var(--tablette-div-rigth-heigth);
     margin: 1em;
     background: #faf8f8;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px;
 }
 .showcase_rigth_bloc > div > a {
     position: relative;
@@ -499,10 +528,10 @@ font-family: 'Raleway';
 }
 .showcase_rigth_bloc > div > a > img {
     opacity: 1;
-    border-radius: 10% 0% 0% 10%;
+    border-radius: 20px 0px 0px 25px;
     margin: .5em;
-    width: 95%;
-    height: 135px;
+    width: var(--tablette-img-rigth-width);
+    height: var(--tablette-img-rigth-heigth);
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -575,7 +604,6 @@ footer {
         display: flex;
         background: #fbfcfd;
         height: 10%;
-        border-radius: 2em;
         border: .1em solid #c8cacc;
     }
     /*---------------------------- contenaire / showcase -------------------------*/
@@ -595,7 +623,7 @@ footer {
 .showcase_left {
     float: left;
     background: #ffffff;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 10px;
     padding-left: 2em;
 }
 .title_showcase_left {
@@ -611,17 +639,15 @@ footer {
     float: left;
     margin: 1em;
     margin-left: -1em;
-    width: 350px;
-    height: 250px;
+    width: var(--phone-div-left-width);
+    height: var(--phone-div-left-heigth);
     background: #ffffff;
-    border-radius: 10% 10% 10% 10%;
     box-shadow: 3px 5px rgb(240, 234, 234);
 }
 .showcase_left_bloc > div > a > img {
-    border-radius: 10% 10% 0% 0%;
     margin: .5em;
-    width: 330px;
-    height: 140px;
+    width: var(--phone-img-left-width);
+    height: var(--phone-img-left-heigth);
     transition: .5s ease;
 }
 .showcase_left_bloc_text {
@@ -676,7 +702,6 @@ footer {
 .showcase_rigth {
     float: left;
     background: #eef1f3;
-    border-radius: 0% 0% 0% 0%;
     margin-top: 1em;
     margin-left: .1em;
     padding-top: .5em;
@@ -685,11 +710,11 @@ footer {
 }
 .showcase_rigth_bloc > div{
     display: flex;
-    width: 350px;
-    height: 150px;
+    width: var(--phone-div-rigth-width);
+    height: var(--phone-div-rigth-heigth);
     margin: 1em;
     background: #faf8f8;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 10px;
 }
 .showcase_rigth_bloc > div > a {
     position: relative;
@@ -698,10 +723,9 @@ footer {
 }
 .showcase_rigth_bloc > div > a > img {
     opacity: 1;
-    border-radius: 10% 0% 0% 10%;
     margin: .5em;
-    width: 95%;
-    height: 135px;
+    width: var(--phone-img-rigth-width);
+    height: var(--phone-img-rigth-heigth);
     transition: .5s ease;
     backface-visibility: hidden;
 }
