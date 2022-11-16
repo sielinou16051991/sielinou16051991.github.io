@@ -650,7 +650,7 @@ footer {
 /*------------------------------------ RIGTH -----------------------------*/
 .bloc_title_showcase_rigth {
     display: flex;
-    margin-left: -2em;
+    margin-left: 1em;
 }
 .bloc_title_showcase_rigth > i {
     margin-left: 35%;
