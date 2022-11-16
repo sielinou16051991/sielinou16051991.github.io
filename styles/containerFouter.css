@@ -439,15 +439,20 @@ footer {
 /*------------------------------FOOTER---------------------------*/
 footer {
     margin-top: 4em;
+    margin-left: 2em;
     padding: 2em;
     display: flex;
     background-color: rgb(247, 243, 243);
     flex-wrap: wrap;
 }
 .footer_bloc_2 {
-    margin-left: 2em;
+    margin-left: 3.5em;
     margin-right: 20%;
     margin-top: 1em;
+}
+.footer_bloc_3 {
+    margin-left: 4em;
+    margin-top: 2em;
 }
 }    
 }

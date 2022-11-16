@@ -586,7 +586,7 @@ footer {
 .title_showcase_left {
     font-size: 25px;
     font-family: 'Raleway';
-    padding-left: 1em;
+    padding-left: .1em;
     padding-top: 1em;
 }
 .showcase_left_bloc {
@@ -595,6 +595,7 @@ footer {
 .showcase_left_bloc > div {
     float: left;
     margin: 1em;
+    margin-left: -1em;
     width: 350px;
     height: 250px;
     background: #ffffff;
@@ -649,7 +650,7 @@ footer {
 /*------------------------------------ RIGTH -----------------------------*/
 .bloc_title_showcase_rigth {
     display: flex;
-    margin-left: -1em;
+    margin-left: -2em;
 }
 .bloc_title_showcase_rigth > i {
     margin-left: 35%;
@@ -662,7 +663,7 @@ footer {
     background: #eef1f3;
     border-radius: 0% 0% 0% 0%;
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: .1em;
     padding-top: .5em;
     width: 400px;
     padding-bottom: calc(1em - 2em);
