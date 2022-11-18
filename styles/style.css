@@ -973,8 +973,8 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: 2em;
-            width: 400px;
+            padding-left: 1em;
+            width: 95%;
         }
         .title_showcase_left {
             font-size: 25px;
@@ -1015,12 +1015,14 @@ input:focus{
             float: left;
             background: #eef1f3;
             margin-top: 1em;
+            margin-left: 1em;
             padding-top: .5em;
-            width: 100%;
+            width: 95%;
             padding-bottom: calc(1em - 2em);
         }
         .showcase_rigth_bloc {
             margin-left: 1em;
+            width: 100%;
         }
         .showcase_rigth_bloc > div{
             display: flex;
@@ -1041,7 +1043,7 @@ input:focus{
 
                 
        .showcase_rigth_text > .showcase_left_bloc_icon {
-            margin-top: 3.5em;
+            margin-top: 2.5em;
             margin-left: .5em;
             display: flex;
         }

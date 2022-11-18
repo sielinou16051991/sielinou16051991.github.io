@@ -1,7 +1,7 @@
  :root{
---border: 5%  5% 5% 5%;
- --borderBottom: 0% 0% 5% 5%;
- --borderTop: 5% 5% 0% 0%;
+--border: 10px 10px 10px 10px;
+ --borderBottom: 0px 0px 10px 10px;
+ --borderTop: 10px 10px 0px 0px;
  --color: rgb(3, 7, 12);
  --bgcolor: rgb(255, 255, 255);
  --fontFamily: 'Raleway'; 
@@ -383,6 +383,7 @@ footer {
         }
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 975px) {
     /*------------------------------------------------TABLETTE PETIT ECRAN OU intermeédière (déplacement du block droit)--------------------------------------------*/
         
@@ -393,47 +394,47 @@ footer {
     }
 }
 
-@media all and (max-width: 768px){
+@media all and (min-width: 600px) and (max-width: 768px){
     /*-----------------------------------------TELEPHONE-------------------------------------*/
             
         .container_2{
             display: flex;
             flex-wrap: wrap;
-            margin-left: 1em;
+            margin-right: 1em;
+            width: 90%;
         }
         .title_container_2 {
             margin-left: 2em;
         }
         /*--------------------première et troisième div------------------------------*/
         .container_2_bloc_1 {
-        width: 350px;
+        width: 100%;
         background-color: var(--bgcolor);
         height: 240px;
-        margin: 1.5em;
+        margin-left: 2.5em;
         margin-top: 0em;
         border-radius: var(--border);
         box-shadow: var(--box-shadow);
         }
         .container_2_bloc_1 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
         .container_2_bloc_3 {
-        width: 350px;
+        width: 100%;
         background-color: var(--bgcolor);
         height: 240px;
-        margin: 1.5em;
-        margin-top: -1em;
-        margin-bottom: 10em;
-        margin-left: 1em;
+        margin-left: 2.5em;
+        margin-top: 0em;
+        margin-bottom: 1em;
         border-radius: var(--border);
         box-shadow: var(--box-shadow);
         }
         .container_2_bloc_3 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
@@ -445,27 +446,28 @@ footer {
         /*--------------------deuxième div------------------------------*/
         .container_2_bloc_2 {
         float: left;
-        width: 350px;
-        margin-left: 1.5em;
-        margin-bottom: 5em;
-        height: 450px;
+        width: 90%;
+        margin-left: 2.2em;
+        margin-bottom: 2.5em;
+        height: 480px;
         border-radius: var(--border);
         }
         .container_2_bloc_2_1 {
-        width: 350px;
+        width: 100%;
         background-color: var(--bgcolor);
         height: 240px;
         border-radius: var(--border);
         box-shadow: var(--box-shadow);
+        margin-bottom: 1.5em;
         }
         .container_2_bloc_2_1 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
         .container_2_bloc_2_2 {
-        width: 350px;
+        width: 100%;
         margin-top: .9em;
         background-color: var(--bgcolor);
         height: 240px;
@@ -473,8 +475,8 @@ footer {
         box-shadow: var(--box-shadow);
         }
         .container_2_bloc_2_2 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
@@ -482,14 +484,14 @@ footer {
 
         .container_2_bloc_4 {
         float: left;
-        width: 350px;
-        height: 450px;
+        width: 90%;
+        height: 480px;
+        margin-left: 2.5em;
         border-radius: var(--border);
-        margin-left: 1em;
         margin-bottom: 2em;
         }
         .container_2_bloc_4_1 {
-        width: 350px;
+        width: 100%;
         background-color: var(--bgcolor);
         height: 240px;
         border-radius: var(--border);
@@ -497,13 +499,13 @@ footer {
         margin-bottom: 2em;
         }
         .container_2_bloc_4_1 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
         .container_2_bloc_4_2 {
-        width: 350px;
+        width: 100%;
         background-color: var(--bgcolor);
         margin-top: .9em;
         height: 240px;
@@ -512,19 +514,20 @@ footer {
         margin-left: .2em;
         }
         .container_2_bloc_4_2 > a > img {
-        width: 350px;
-        height: 190px;
+        width: 100%;
+        height: 200px;
         border-radius: var(--borderTop);
         transition: var(--transition);
         }
 
         /*------------------------------FOOTER---------------------------*/
         footer {
-        margin: 2em 4em 1em;
-        padding: 2em;
+        margin-left: 1em;
+        padding: 2em 2em;
         display: flex;
-        background-color: rgb(247, 243, 243);
         flex-wrap: wrap;
+        background-color: rgb(247, 243, 243);
+        width: 80%;
         }
         .footer_bloc_2 {
         margin-left: 3.5em;
@@ -536,3 +539,122 @@ footer {
         margin-top: 2em;
         }
 }   
+
+@media all and (max-width: 600px) {
+    
+    /*-----------------------------------------TELEPHONE-------------------------------------*/
+           
+    .container_2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 1em;
+        margin-left: -1em;
+        width: 95%;
+    }
+    .title_container_2 {
+        margin-left: 2em;
+    }
+    /*--------------------première et troisième div------------------------------*/
+    .container_2_bloc_1 {
+    width: 100%;
+    background-color: var(--bgcolor);
+    height: 240px;
+    margin-left: 2.5em;
+    margin-top: 0em;
+    border-radius: var(--border);
+    box-shadow: var(--box-shadow);
+    }
+    .container_2_bloc_1 > a > img {
+    width: 100%;
+    height: 200px;
+    border-radius: var(--borderTop);
+    transition: var(--transition);
+    }
+    .container_2_bloc_3 {
+    width: 100%;
+    background-color: var(--bgcolor);
+    height: 240px;
+    margin-left: 2.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    border-radius: var(--border);
+    box-shadow: var(--box-shadow);
+    }
+    .container_2_bloc_3 > a > img {
+    width: 100%;
+    height: 200px;
+    border-radius: var(--borderTop);
+    transition: var(--transition);
+    }
+    /*
+    .container_2_bloc_2:nth-child(1){
+    margin-bottom: 10em;
+    }
+    */
+    /*--------------------deuxième div------------------------------*/
+    .container_2_bloc_2 {
+    float: left;
+    width: 85%;
+    margin-left: 2.2em;
+    margin-bottom: 2.5em;
+    height: 480px;
+    border-radius: var(--border);
+    }
+    .container_2_bloc_2_1 {
+    width: 100%;
+    background-color: var(--bgcolor);
+    height: 240px;
+    border-radius: var(--border);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 1.5em;
+    }
+    .container_2_bloc_2_1 > a > img {
+    width: 100%;
+    height: 200px;
+    border-radius: var(--borderTop);
+    transition: var(--transition);
+    }
+    .container_2_bloc_2_2 {
+    width: 100%;
+    margin-top: .9em;
+    background-color: var(--bgcolor);
+    height: 240px;
+    border-radius: var(--border);
+    box-shadow: var(--box-shadow);
+    }
+    .container_2_bloc_2_2 > a > img {
+    width: 100%;
+    height: 200px;
+    border-radius: var(--borderTop);
+    transition: var(--transition);
+    }
+    /*--------------------quatrième div------------------------------*/
+
+    .container_2_bloc_4 {
+    float: left;
+    width: 85%;
+    height: 480px;
+    margin-left: 2.5em;
+    border-radius: var(--border);
+    margin-bottom: 1em;
+    }
+
+    /*------------------------------FOOTER---------------------------*/
+    footer {
+    margin-left: 0em;
+    padding: 2em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 243, 243);
+    width: 80%;
+    }
+    .footer_bloc_2 {
+    margin-left: 3.5em;
+    margin-right: 20%;
+    margin-top: 1em;
+    }
+    .footer_bloc_3 {
+    margin-left: 4em;
+    margin-top: 2em;
+    }
+}
