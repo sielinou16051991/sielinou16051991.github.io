@@ -651,7 +651,7 @@ input:focus{
             .showcase_left{
                 margin-top: 1em;
                 margin-right: 1em;
-                width: 100%;
+                width: 95%;
             }
             .showcase_left_bloc {
                 display: flex;
@@ -709,10 +709,10 @@ input:focus{
                 background: #eef1f3;
                 border-radius: 10px;
                 margin-top: 1em;
-                margin-left: .5em;
+                margin-left: -.3em;
                 padding-top: .5em;
                 padding-bottom: calc(1em - 2em);
-                width: 100%;
+                width: 95%;
             }
             .showcase_rigth_bloc {
                 display: flex;
@@ -726,9 +726,6 @@ input:focus{
                 margin: 1em;
                 background: #faf8f8;
                 border-radius: 25px;
-            }
-            footer {
-                margin-top: 0em;
             }
 
             .container {

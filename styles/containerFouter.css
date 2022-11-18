@@ -56,7 +56,8 @@
    */
 }
 .container_2{
-    display: flex
+    display: flex;
+    width: 95%;
 }
 .title_container_2 {
     font-family: var(--fontFamily);
@@ -233,8 +234,10 @@
 }
 /*------------------------------FOOTER---------------------------*/
 footer {
+    width: 90%;
     padding: 2em;
     display: flex;
+    margin-left: 1em;
     margin-top: 1em;
     background-color: rgb(247, 243, 243);
 }
@@ -260,10 +263,12 @@ footer {
 /*--------------------RESPONSIVE------------------------------*/
     @media only screen and (min-width: 975px) and (max-width: 1300px){
                 
-            .container_2{
+      /*------------------------------------------------TABLETTE --------------------------------------------*/
+      .container_2{
                 display: flex;
                 margin-right: 1em;
                 margin-left: 1em;
+                width: 95%;
             }
         /*--------------------première et troisième div------------------------------*/
         .container_2_bloc_1 {
@@ -378,6 +383,15 @@ footer {
         }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 975px) {
+    /*------------------------------------------------TABLETTE PETIT ECRAN OU intermeédière (déplacement du block droit)--------------------------------------------*/
+        
+    .container_2{
+        display: flex;
+        margin-right: 1em;
+        width: 95%;
+    }
+}
 
 @media all and (max-width: 768px){
     /*-----------------------------------------TELEPHONE-------------------------------------*/
