@@ -47,8 +47,8 @@ body {
 }
 */
 body {
-    margin-left: 2em;
-    background: rgba(155, 200, 200, 0.1) , fixed no-repeat;
+    margin-left: .5em;
+    background: #ffffff;
 }
 
 header {
@@ -80,17 +80,15 @@ header {
     color: #9f9dc0;
     cursor: pointer;
 }
-.hr1 {
-    opacity: 0;
-}
-.hr2 {
-    opacity: 0;
-}
 .lien2:hover{
     cursor: pointer;
     text-decoration: dashed;
 }
+.lien1:hover{
+    cursor: pointer;
+}
 .hebergement_activite {
+    margin-right: 0em;
     display: flex;
     margin-left:  55%;
 }
@@ -608,11 +606,12 @@ input:focus{
             .logo1 {
                 position: absolute;
                 opacity: 0;
+                margin-bottom: -6em;
             }
             .hebergement_activite {
                 display: flex;
-                margin-left: 45%;
-                margin-top: 1em;
+                margin-left: 35%;
+                margin-top: 2em;
             }
             .hebergement_activite > div {
                 padding-left: 2em;
@@ -746,7 +745,8 @@ input:focus{
             display: flex;
         }
         .logo2 {
-            margin-left: 8em;
+            margin-left: 2em;
+            margin-top: 1em;
             position: relative;
             width: 75px;
             height: 50px;
@@ -758,7 +758,8 @@ input:focus{
         }
         .hebergement_activite {
             position: relative;
-            margin-left:  0%;
+            margin-left:  20%;
+            margin-bottom: -4em;
         }
         .hebergement_activite > div {
             padding-left: 2em;
@@ -767,7 +768,7 @@ input:focus{
         }
                 
         .hr1 {
-            opacity: 1;
+            opacity: 0;
             width: 175%;
             margin-left: -2em;
         }
@@ -898,7 +899,7 @@ input:focus{
             display: flex;
         }
         .logo2 {
-            margin-left: 8em;
+            margin-left: 10em;
             position: relative;
             width: 75px;
             height: 50px;
@@ -908,24 +909,24 @@ input:focus{
             position: absolute;
             opacity: 0;
         }
+        
         .hebergement_activite {
             position: relative;
-            margin-left:  0%;
+            margin-left: 1em;
+        }
+        .lien1:hover{
+            border-bottom: #2d4b70 solid;
+            width: 250px;
         }
         .hebergement_activite > div {
             padding-left: 2em;
             padding-top: 2em;
             padding-right: 2em;
         }
-                
-        .hr1 {
-            opacity: 1;
-            width: 175%;
-            margin-left: -2em;
-        }
-        .hr2:hover {
-            opacity: 1;
-        }
+         
+
+        
+
                 
         .labelRecherche > label {
             position: absolute;
