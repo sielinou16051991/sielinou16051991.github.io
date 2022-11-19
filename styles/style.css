@@ -546,7 +546,7 @@ input:focus{
                 flex-wrap: wrap;
                 background: #eef1f3;
                 border-radius: 10px;
-                padding-left:-1em;
+                padding-left: calc(1em - 2em);
                 margin-right: 1em;
             }
             .showcase_left_bloc > div {
@@ -698,7 +698,7 @@ input:focus{
                 flex-wrap: wrap;
                 background: #eef1f3;
                 border-radius: 10px;
-                padding-left:-1em;
+                padding-left:calc(1em - 2em);
             }
             .showcase_left_bloc > div {
                 float: left;
