@@ -77,12 +77,13 @@ header {
     color: #0065FC;
 }
 .lien1:hover {
-    color: #9f9dc0;
+    color: #0065FC;
     cursor: pointer;
 }
 .lien2:hover{
     cursor: pointer;
     text-decoration: dashed;
+    color: #0065FC;
 }
 .lien1:hover{
     cursor: pointer;
@@ -919,9 +920,9 @@ input:focus{
             display: flex;
         }
         .logo2 {
-            margin-left: 10em;
+            margin-left: 8em;
             position: relative;
-            width: 75px;
+            width: 25%;
             height: 50px;
             opacity: 1;
         }
@@ -935,8 +936,12 @@ input:focus{
             margin-left: 0em;
         }
         .lien1:hover{
-            border-bottom: #2d4b70 solid;
-            width: 200px;
+            border-bottom: #1160c0 solid;
+            width: 90%;
+        }
+        .lien2:hover{
+            border-bottom: #1160c0 solid;
+            width: 90%;
         }
         .hebergement_activite > div {
             padding-left: 2em;
