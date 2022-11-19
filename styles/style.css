@@ -112,7 +112,7 @@ header {
 }
 .icon {
     background: #DEEBFF;
-    width: 55px;
+    width: 15%;
     height: 55px;
     border-radius: 25% 0% 0% 25%;
 }
@@ -912,11 +912,11 @@ input:focus{
         
         .hebergement_activite {
             position: relative;
-            margin-left: 1em;
+            margin-left: 0em;
         }
         .lien1:hover{
             border-bottom: #2d4b70 solid;
-            width: 250px;
+            width: 200px;
         }
         .hebergement_activite > div {
             padding-left: 2em;
@@ -924,9 +924,6 @@ input:focus{
             padding-right: 2em;
         }
          
-
-        
-
                 
         .labelRecherche > label {
             position: absolute;
