@@ -79,11 +79,13 @@ header {
 .lien1:hover {
     color: #0065FC;
     cursor: pointer;
+    border-top: #0065FC solid 2px;
 }
 .lien2:hover{
     cursor: pointer;
     text-decoration: dashed;
     color: #0065FC;
+    border-top: #0065FC solid 2px;
 }
 .lien1:hover{
     cursor: pointer;
@@ -172,37 +174,49 @@ input:focus{
     font-family: 'Raleway';
 }
 .filter_contern {
-    opacity: .7;
+    opacity: 1;
     margin: 1em;
     display: flex;
     background: #fbfcfd;
-    height: 25%;
+    height: 50px;
     border-radius: 50px;
     border: .1em solid #c8cacc;
 }
+.filter_contern > label{
+    text-align: center;
+}
 .filter_contern:hover{
     opacity: 1;
-    box-shadow: 2px 3px red;
+    background: #d6d3df;
+    cursor: pointer;
 }
 .filter_contern:active{
-    color: #060a0f;
+    color: #194172;
     border: 2px solid;
 }
 .filter_contern:visited{
     background: #060a0f;
 }
+.filter_contern:nth-child(3) > .filter_icon > i {
+    margin-left: .9em;
+}
+.filter_contern:nth-child(5) > .filter_icon > i {
+    margin-left: .8em;
+}
 .filter_icon {
     background: #c8cacc;
     border-radius: 100px;
     font-size: 100%;
-    padding: 1em;
-    width: 2em;
-    margin-left: calc(1em - 1.2em);
+    width: 50px;
+    margin-left: -.09em;
+    margin-top: -.09em;
+    margin-right: .1em;
 }
 .filter_icon > i {
     color: #032a68;
-    margin-left: .2em;
-    font-size: 1.5em;
+    font-size: 20px;
+    margin-left: .7em;
+    margin-top: .9em;
 }
 .filter_icon > i:hover{
     opacity: 1;
