@@ -547,8 +547,7 @@ footer {
     .container_2{
         display: flex;
         flex-wrap: wrap;
-        margin-right: 1em;
-        margin-left: 1em;
+        margin-left: .5em;
         width: 95%;
     }
     .title_container_2 {
@@ -575,7 +574,7 @@ footer {
     background-color: var(--bgcolor);
     height: 240px;
     margin-left: 2.5em;
-    margin-top: 0em;
+    margin-top: .5em;
     margin-bottom: 1em;
     border-radius: var(--border);
     box-shadow: var(--box-shadow);
@@ -594,8 +593,8 @@ footer {
     /*--------------------deuxième div------------------------------*/
     .container_2_bloc_2 {
     float: left;
-    width: 85%;
-    margin-left: 2.2em;
+    width: 86%;
+    margin-left: 2.5em;
     margin-bottom: 2.5em;
     height: 480px;
     border-radius: var(--border);
@@ -631,9 +630,11 @@ footer {
     /*--------------------quatrième div------------------------------*/
 
     .container_2_bloc_4 {
-    float: left;
-    width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+    width: 86%;
     height: 480px;
+    margin-top: .5em;
     margin-left: 2.5em;
     border-radius: var(--border);
     margin-bottom: 1em;
