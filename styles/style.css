@@ -68,8 +68,8 @@ header {
 }
 .logo1 {
     position: relative;
-    width: 20%;
-    height: 150px;
+    width: 15%;
+    height: 90px;
     opacity: 1;
     transition: .5s ease;
 }
@@ -455,14 +455,14 @@ input:focus{
             .entete_elt {
                 display: flex;
             }
-            .logo2 {
+            .logo1 {
                 margin-left: 1em;
                 position: relative;
                 width: 15%;
-                height: 110px;
+                height: 90px;
                 opacity: 1;
             }
-            .logo1 {
+            .logo2 {
                 position: absolute;
                 opacity: 0;
             }
@@ -529,7 +529,6 @@ input:focus{
                 width: 45%;
             }
             .showcase_left_bloc > div:nth-child(3){
-                background-color: #032a68;
                 width: 45%;
             }
             .showcase_left_bloc > div:nth-child(4){
@@ -604,14 +603,14 @@ input:focus{
             .entete_elt {
                 display: flex;
             }
-            .logo2 {
+            .logo1 {
                 margin-left: 1em;
                 position: relative;
                 width: 15%;
-                height: 110px;
+                height: 90px;
                 opacity: 1;
             }
-            .logo1 {
+            .logo2 {
                 position: absolute;
                 opacity: 0;
                 margin-bottom: -6em;
@@ -758,37 +757,32 @@ input:focus{
         .entete_elt {
             display: flex;
         }
-        .logo2 {
-            margin-left: 2em;
-            margin-top: 1em;
+        .logo1 {
+            margin-left: 40%;
+            margin-top: 0em;
             position: relative;
-            width: 75px;
+            width: 28%;
             height: 50px;
             opacity: 1;
         }
-        .logo1 {
+        .logo2 {
             position: absolute;
             opacity: 0;
         }
         .hebergement_activite {
             position: relative;
             margin-left:  20%;
-            margin-bottom: -4em;
+            margin-bottom: 0em;
         }
         .hebergement_activite > div {
-            padding-left: 2em;
+            padding-left: 3em;
             padding-top: 2em;
-            padding-right: 2em;
+            padding-right: 5em;
         }
-                
-        .hr1 {
-            opacity: 0;
-            width: 175%;
-            margin-left: -2em;
+        .lien1{
+            border-bottom: #0e4cb1 solid 3px;
         }
-        .hr2:hover {
-            opacity: 1;
-        }
+               
                 
         .labelRecherche > label {
             position: absolute;
@@ -796,7 +790,7 @@ input:focus{
             font-size: 40%;
         }
         .input > input{
-            width: 290px;
+            width: 100%;
         }
         .icon {
             background: #DEEBFF;
@@ -918,14 +912,14 @@ input:focus{
         .entete_elt {
             display: flex;
         }
-        .logo2 {
+        .logo1 {
             margin-left: 8em;
             position: relative;
             width: 25%;
             height: 50px;
             opacity: 1;
         }
-        .logo1 {
+        .logo2 {
             position: absolute;
             opacity: 0;
         }
@@ -933,6 +927,9 @@ input:focus{
         .hebergement_activite {
             position: relative;
             margin-left: 0em;
+        }
+        .lien1{
+            border-bottom: #1160c0 solid;
         }
         .lien1:hover{
             border-bottom: #1160c0 solid;
