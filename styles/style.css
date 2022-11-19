@@ -112,7 +112,7 @@ header {
 }
 .icon {
     background: #DEEBFF;
-    width: 15%;
+    width: 5%;
     height: 55px;
     border-radius: 25% 0% 0% 25%;
 }
@@ -475,6 +475,13 @@ input:focus{
                 padding-top: 1em;
                 padding-right: 2em;
             }
+                        
+            .icon {
+                background: #DEEBFF;
+                width: 6%;
+                height: 55px;
+                border-radius: 25% 0% 0% 25%;
+            }
             .labelRecherche {
                 width: 10%;
                 padding: .25em;
@@ -625,16 +632,23 @@ input:focus{
                 color: aliceblue;
                 font-size: 180%;
             }
+            .icon {
+                background: #DEEBFF;
+                width: 8%;
+                height: 55px;
+                border-radius: 25% 0% 0% 25%;
+            }
             .labelRecherche > label {
-                position: relative;
-                opacity: 1;
+                position: absolute;
+                opacity: 0;
                 font-size: 58%;
             }
             .labelRecherche > i {
                 margin-left: .5em;
-                position: absolute;
-                opacity: 0;
+                position: relative;
+                opacity: 1;
                 font-size: 20px;
+                margin-left: 50%;
             }
 
             /*------------------------------------- CONTAINER/ SCHOWCASE ----------------------------------------------*/
@@ -784,6 +798,12 @@ input:focus{
         .input > input{
             width: 290px;
         }
+        .icon {
+            background: #DEEBFF;
+            width: 10%;
+            height: 55px;
+            border-radius: 25% 0% 0% 25%;
+        }
         .labelRecherche > i {
             margin-left: .5em;
             position: relative;
@@ -923,8 +943,14 @@ input:focus{
             padding-top: 2em;
             padding-right: 2em;
         }
-         
                 
+        .icon {
+            background: #DEEBFF;
+            width: 12%;
+            height: 55px;
+            border-radius: 25% 0% 0% 25%;
+        }
+                        
         .labelRecherche > label {
             position: absolute;
             opacity: 0;
