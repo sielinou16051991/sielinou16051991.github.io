@@ -441,7 +441,7 @@ input:focus{
     display: flex;
 }
 .showcase_left_bloc_icon > i {
-    color: #3274df;
+    color: #3274df; 
 }
 .showcase_left_bloc_icon_i{
     color: rgb(190, 164, 164);
