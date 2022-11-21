@@ -682,12 +682,20 @@ input:focus{
                 background: #0065FC;
                 color: aliceblue;
                 font-size: 180%;
-            }
+            }          
             .icon {
                 background: #DEEBFF;
-                width: 8%;
-                height: 55px;
+                width: 45px;
+                height: 54px;
                 border-radius: 25% 0% 0% 25%;
+            }
+            .input{
+                margin-bottom: 0px;
+            }
+            .input > input{
+                margin-top: 0px;
+                width: 98%;
+                border: #f7f7f8 solid .001px;
             }
             .labelRecherche > label {
                 position: absolute;
@@ -1020,14 +1028,21 @@ input:focus{
             padding-top: 2em;
             padding-right: 2em;
         }
-                
+                    
         .icon {
             background: #DEEBFF;
-            width: 12%;
-            height: 55px;
+            width: 45px;
+            height: 54px;
             border-radius: 25% 0% 0% 25%;
         }
-                        
+        .input{
+            margin-bottom: 0px;
+        }
+        .input > input{
+            margin-top: 0px;
+            width: 98%;
+            border: #f7f7f8 solid .001px;
+        }       
         .labelRecherche > label {
             position: absolute;
             opacity: 0;
