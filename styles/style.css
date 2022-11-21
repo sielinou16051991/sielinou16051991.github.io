@@ -98,7 +98,6 @@ header {
 }
 .hebergement_activite {
     margin-right: 0em;
-    margin-top: 0em;
     display: flex;
     margin-left:  65%;
 }
@@ -143,7 +142,8 @@ header {
     height: 50px;
     margin-top: 2px;
     border: none;
-    background: rgb(252, 252, 252);
+    color: #060a0f;
+    background: #ffff;
 }
 input:focus{
     background-color: rgb(243, 237, 237);
@@ -301,8 +301,6 @@ input:focus{
     opacity: .9;
     background: #eaedf3;
     box-shadow: 5px 2px 10px;
-    cursor: pointer;
-    transition: var(--transition);
 }
 .showcase_left_bloc > div > a > img {
     border-radius: 20px 20px 0px 0px;
