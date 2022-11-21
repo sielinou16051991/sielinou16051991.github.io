@@ -961,7 +961,7 @@ input:focus{
         margin-top: 3.5em;
         margin-left: .5em;
         display: flex;
-    }
+        }
 }
 
     @media all and (max-width: 600px) {
@@ -1066,7 +1066,7 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: 1em;
+            padding-left: .5em;
             width: 95%;
         }
         .title_showcase_left {
@@ -1139,7 +1139,6 @@ input:focus{
             transition: .5s ease;
             backface-visibility: hidden;
         }
-           
        .showcase_rigth_text > .showcase_left_bloc_icon {
             margin-top: 2.5em;
             margin-left: .5em;
