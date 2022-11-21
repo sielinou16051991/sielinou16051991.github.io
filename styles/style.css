@@ -137,10 +137,12 @@ header {
     background: rgb(240, 233, 233);
 }
 .input > input {
+    font-size: 30px;
     width: 200px;
     height: 50px;
     margin-top: 2px;
     border: none;
+    background: rgb(252, 252, 252);
 }
 input:focus{
     background-color: rgb(243, 237, 237);
@@ -182,6 +184,7 @@ input:focus{
     opacity: 1;
     margin: 1em;
     display: flex;
+    background: #fbfcfd;
     height: 50px;
     border-radius: 50px;
     border: .1em solid #c8cacc;
@@ -191,14 +194,12 @@ input:focus{
 }
 .filter_contern:hover{
     opacity: 1;
+    background: #d6d3df;
     cursor: pointer;
 }
 .filter_contern:active{
     color: #194172;
     border: 2px solid;
-}
-.filter_contern:visited{
-    background: #060a0f;
 }
 .filter_contern:nth-child(3) > .filter_icon > i {
     margin-left: .9em;
@@ -616,6 +617,7 @@ input:focus{
     @media only screen and (min-width: 768px) and (max-width: 975px) {
                 /*------------------------------------------------TABLETTE PETIT ECRAN OU intermeédière (déplacement du block droit)--------------------------------------------*/
             header {
+                padding-top: 1em;
                 padding-left: var(--padding-left);
                 flex-wrap: wrap;
             }
