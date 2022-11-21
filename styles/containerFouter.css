@@ -547,7 +547,7 @@ footer {
     .container_2{
         display: flex;
         flex-wrap: wrap;
-        margin-left: .5em;
+        margin-left: -.5em;
         width: 95%;
     }
     .title_container_2 {
@@ -594,7 +594,7 @@ footer {
     .container_2_bloc_2 {
     float: left;
     width: 86%;
-    margin-left: 2.5em;
+    margin-left: 2.2em;
     margin-bottom: 2.5em;
     height: 480px;
     border-radius: var(--border);
@@ -635,7 +635,7 @@ footer {
     width: 86%;
     height: 480px;
     margin-top: .5em;
-    margin-left: 2.5em;
+    margin-left: 2.2em;
     border-radius: var(--border);
     margin-bottom: 1em;
     }
@@ -643,7 +643,7 @@ footer {
     /*------------------------------FOOTER---------------------------*/
     footer {
     margin-left: 0em;
-    margin-right: 0em;
+    margin-right: .1em;
     padding: 2em 2em;
     display: flex;
     flex-wrap: wrap;
