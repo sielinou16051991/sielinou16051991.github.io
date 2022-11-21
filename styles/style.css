@@ -1022,7 +1022,6 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: 1em;
             padding-left: .5em;
             width: 95%;
         }
