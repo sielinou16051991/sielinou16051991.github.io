@@ -60,7 +60,7 @@ header {
 }
 .container{
     margin-left: 3em;
-    margin-top: 0em;
+    margin-top: 1em
 }
 .entete_elt {
     display: flex;
@@ -85,16 +85,19 @@ header {
 .lien1:hover {
     color: #0065FC;
     cursor: pointer;
-    border-top: #0065FC solid .9px;
+    border-top: #0065FC solid 2px;
 }
 .lien2:hover{
     cursor: pointer;
     text-decoration: dashed;
-    border-top: #0065FC solid .9px;
+    color: #0065FC;
+    border-top: #0065FC solid 2px;
+}
+.lien1:hover{
+    cursor: pointer;
 }
 .hebergement_activite {
     margin-right: 0em;
-    margin-top: 0em;
     display: flex;
     margin-left:  65%;
 }
@@ -134,13 +137,10 @@ header {
     background: rgb(240, 233, 233);
 }
 .input > input {
-    font-size: 25px;
     width: 200px;
     height: 50px;
     margin-top: 2px;
     border: none;
-    color: #060a0f;
-    background: #ffff;
 }
 input:focus{
     background-color: rgb(243, 237, 237);
@@ -156,14 +156,12 @@ input:focus{
 .labelRecherche:hover{
     opacity: .5;
     background: #a9afb8;
-    cursor: pointer;
 }
 .labelRecherche > label {
     position: relative;
     opacity: 1;
     font-size: 75%;
     width: 8%;
-    cursor: pointer;
 }
 .labelRecherche > i {
     position: absolute;
@@ -184,7 +182,6 @@ input:focus{
     opacity: 1;
     margin: 1em;
     display: flex;
-    background: #ffffff;
     height: 50px;
     border-radius: 50px;
     border: .1em solid #c8cacc;
@@ -194,7 +191,6 @@ input:focus{
 }
 .filter_contern:hover{
     opacity: 1;
-    background: #f2f1f7;
     cursor: pointer;
 }
 .filter_contern:active{
@@ -221,17 +217,6 @@ input:focus{
     margin-left: -.09em;
     margin-top: -.09em;
     margin-right: .1em;
-}
-/*---------------ILLUSTRATION D'UNE CONDITION AU PASSAGE DU CURSEUR DE LA SOURIS----------------------*/
-.filter_contern:hover .filter_icon{
-    background: rgb(73, 18, 136);
-}
-.filter_contern:hover .filter_text > label{
-    color: blue;
-    cursor: pointer;
-}
-.filter_contern:hover .filter_icon > i {
-    color: #ffffff;
 }
 .filter_icon > i {
     color: #032a68;
@@ -308,13 +293,12 @@ input:focus{
     height: var(--div-left-heigth);
     background: #faf8f8;
     border-radius: 25px;
+    transition: var(--transition);
 }
 .showcase_left_bloc > div:hover{
     opacity: .9;
     background: #eaedf3;
     box-shadow: 5px 2px 10px;
-    cursor: pointer;
-    transition: var(--transition);
 }
 .showcase_left_bloc > div > a > img {
     border-radius: 20px 20px 0px 0px;
@@ -484,7 +468,7 @@ input:focus{
     @media only screen and (min-width: 975px) and (max-width: 1300px){
                /*------------------------------------------------TABLETTE--------------------------------------------*/
             header {
-               padding-top: 0em;
+               padding-top: 1em;
                 padding-left: var(--padding-left);
                 flex-wrap: wrap;
             }
@@ -501,12 +485,11 @@ input:focus{
             .logo2 {
                 position: absolute;
                 opacity: 0;
-                margin-bottom: 0em;
             }
             .hebergement_activite {
                 display: flex;
-                margin-left: 65%;
-                margin-top: -6em;
+                margin-left: 45%;
+                margin-top: 1em;
             }
             .hebergement_activite > div {
                 padding-left: 2em;
@@ -600,12 +583,6 @@ input:focus{
             .bloc_title_showcase_rigth {
                 display: flex;
             }
-            .bloc_title_showcase_rigth > i {
-                margin-left: 35%;
-                margin-top: .75em;
-                font-size: 25px;
-                margin-bottom: 0em;
-            }
             .showcase_rigth {
                 float: left;
                 background: #eef1f3;
@@ -639,7 +616,6 @@ input:focus{
     @media only screen and (min-width: 768px) and (max-width: 975px) {
                 /*------------------------------------------------TABLETTE PETIT ECRAN OU intermeédière (déplacement du block droit)--------------------------------------------*/
             header {
-                padding-top: 0em;
                 padding-left: var(--padding-left);
                 flex-wrap: wrap;
             }
@@ -656,12 +632,12 @@ input:focus{
             .logo2 {
                 position: absolute;
                 opacity: 0;
-                margin-bottom: 0em;
+                margin-bottom: -6em;
             }
             .hebergement_activite {
                 display: flex;
-                margin-left: 45%;
-                margin-top: -6em;
+                margin-left: 35%;
+                margin-top: 2em;
             }
             .hebergement_activite > div {
                 padding-left: 2em;
@@ -758,12 +734,6 @@ input:focus{
                 width: 100%;
                 height: 10px;
             }
-        .bloc_title_showcase_rigth > i {
-            margin-left: 75%;
-            margin-top: .75em;
-            font-size: 25px;
-            margin-bottom: 0em;
-        }
             .showcase_rigth {
                 display: flex;
                 flex-wrap: wrap;
@@ -807,7 +777,7 @@ input:focus{
             display: flex;
         }
         .logo1 {
-            margin-left: 30%;
+            margin-left: 40%;
             margin-top: 0em;
             position: relative;
             width: 28%;
@@ -822,25 +792,17 @@ input:focus{
             position: relative;
             margin-left:  20%;
             margin-bottom: 0em;
-            margin-left: -3em;
         }
         .hebergement_activite > div {
-            padding-left: 9em;
+            padding-left: 3em;
             padding-top: 2em;
             padding-right: 5em;
         }
         .lien1{
-            border-bottom: #0e4cb1 solid 1px;
-            border-top: none;
+            border-bottom: #0e4cb1 solid 3px;
         }
-        .lien1:hover{
-            border-top: none;
-        }
-        .lien2:hover{
-            border-bottom: #0065FC solid 1px;
-            width: 185px;
-            border-top: none;
-        }         
+               
+                
         .labelRecherche > label {
             position: absolute;
             opacity: 0;
@@ -927,12 +889,6 @@ input:focus{
             display: flex;
             margin-left: 1em;
         }
-        .bloc_title_showcase_rigth > i {
-            margin-left: 65%;
-            margin-top: .75em;
-            font-size: 25px;
-            margin-bottom: 0em;
-        }
         .showcase_rigth {
             float: left;
             background: #eef1f3;
@@ -961,7 +917,7 @@ input:focus{
         margin-top: 3.5em;
         margin-left: .5em;
         display: flex;
-    }
+        }
 }
 
     @media all and (max-width: 600px) {
@@ -992,35 +948,29 @@ input:focus{
             margin-left: 0em;
         }
         .lien1{
-            border-bottom: #0e4cb1 solid 1px;
-            border-top: none;
-            width: 125px;
-            margin-left: -3em;
+            border-bottom: #1160c0 solid;
         }
         .lien1:hover{
-            border-top: none;
-            cursor: pointer;
+            border-bottom: #1160c0 solid;
+            width: 90%;
         }
         .lien2:hover{
-            border-bottom: #0065FC solid 1px;
-            width: 150px;
-            border-top: none;
-            cursor: pointer;
+            border-bottom: #1160c0 solid;
+            width: 90%;
         }
         .hebergement_activite > div {
-            padding-left: 4em;
+            padding-left: 2em;
             padding-top: 2em;
             padding-right: 2em;
-        }   
-        .container{
-            margin-left: -.5em;
         }
+                
         .icon {
             background: #DEEBFF;
             width: 12%;
             height: 55px;
             border-radius: 25% 0% 0% 25%;
-        }           
+        }
+                        
         .labelRecherche > label {
             position: absolute;
             opacity: 0;
@@ -1067,7 +1017,7 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: 1.7em;
+            padding-left: .5em;
             width: 95%;
         }
         .title_showcase_left {
@@ -1105,12 +1055,6 @@ input:focus{
             display: flex;
             margin-left: 1em;
         }
-        .bloc_title_showcase_rigth > i {
-            margin-left: 55%;
-            margin-top: .75em;
-            font-size: 25px;
-            margin-bottom: 0em;
-        }
         .showcase_rigth {
             float: left;
             background: #eef1f3;
@@ -1139,8 +1083,7 @@ input:focus{
             height: var(--phone-img-rigth-heigth);
             transition: .5s ease;
             backface-visibility: hidden;
-        }
-           
+        }       
        .showcase_rigth_text > .showcase_left_bloc_icon {
             margin-top: 2.5em;
             margin-left: .5em;
