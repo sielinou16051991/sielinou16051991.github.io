@@ -1019,7 +1019,7 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: .5em;
+            padding-left: 1em;
             width: 95%;
         }
         .title_showcase_left {
@@ -1086,8 +1086,7 @@ input:focus{
             transition: .5s ease;
             backface-visibility: hidden;
         }
-
-                
+           
        .showcase_rigth_text > .showcase_left_bloc_icon {
             margin-top: 2.5em;
             margin-left: .5em;
