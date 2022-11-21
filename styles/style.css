@@ -455,6 +455,7 @@ input:focus{
     margin-left: .5em;
     display: flex;
 }
+
 .showcase_left_bloc_icon > i {
     color: #3274df;
 }
