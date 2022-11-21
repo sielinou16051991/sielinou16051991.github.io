@@ -142,8 +142,7 @@ header {
     height: 50px;
     margin-top: 2px;
     border: none;
-    color: #060a0f;
-    background: #ffff;
+    background: rgb(252, 252, 252);
 }
 input:focus{
     background-color: rgb(243, 237, 237);
@@ -1086,7 +1085,13 @@ input:focus{
             height: var(--phone-img-rigth-heigth);
             transition: .5s ease;
             backface-visibility: hidden;
+<<<<<<< HEAD
         }       
+=======
+        }
+
+                
+>>>>>>> parent of 75931f6 (update: filtre, étoile, place holder, page centrée ...)
        .showcase_rigth_text > .showcase_left_bloc_icon {
             margin-top: 2.5em;
             margin-left: .5em;
