@@ -201,9 +201,6 @@ input:focus{
     color: #194172;
     border: 2px solid;
 }
-.filter_contern:visited{
-    background: #060a0f;
-}
 .filter_contern:nth-child(3) > .filter_icon > i {
     margin-left: .9em;
 }
@@ -443,6 +440,7 @@ input:focus{
     margin-left: .5em;
     display: flex;
 }
+
 .showcase_left_bloc_icon > i {
     color: #3274df;
 }
