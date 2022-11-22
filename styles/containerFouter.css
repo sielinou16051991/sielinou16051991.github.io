@@ -92,7 +92,6 @@
     margin-left: var(--marginLeft);
 }
 
-
 .container_2_bloc_3 {
     width: 30%;
     background-color: var(--bgcolor);
@@ -235,9 +234,9 @@
 /*------------------------------FOOTER---------------------------*/
 footer {
     width: 95%;
+    margin-left: 0em;
     padding: 2em;
     display: flex;
-    margin-left: 0em;
     margin-top: 1em;
     background-color: rgb(247, 243, 243);
 }
@@ -375,11 +374,12 @@ footer {
         }
         /*------------------------------FOOTER---------------------------*/
         footer {
+            width: 94%;
+            margin-left: 0em;
             padding: 2em;
             display: flex;
             margin-top: 1em;
             background-color: rgb(247, 243, 243);
-            margin-right: 2em;
         }
 }
 
@@ -391,6 +391,14 @@ footer {
         display: flex;
         margin-right: 1em;
         width: 95%;
+    }
+    footer {
+        padding: 2em 2em;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(247, 243, 243);
+        margin-left: 1em;
+        width: 90%;
     }
 }
 
@@ -522,21 +530,20 @@ footer {
 
         /*------------------------------FOOTER---------------------------*/
         footer {
-        margin-left: 2em;
-        padding: 2em 2em;
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(247, 243, 243);
-        width: 85%;
+            padding: 2em 2em;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(247, 243, 243);
+            width: 85%;
         }
         .footer_bloc_2 {
-        margin-left: 3.5em;
-        margin-right: 20%;
-        margin-top: 1em;
+            margin-left: 3.5em;
+            margin-right: 20%;
+            margin-top: 1em;
         }
         .footer_bloc_3 {
-        margin-left: 4em;
-        margin-top: 2em;
+            margin-left: 4em;
+            margin-top: 2em;
         }
 }   
 
@@ -632,31 +639,29 @@ footer {
     .container_2_bloc_4 {
         display: flex;
         flex-wrap: wrap;
-    width: 86%;
-    height: 480px;
-    margin-top: .5em;
-    margin-left: 2.2em;
-    border-radius: var(--border);
-    margin-bottom: 1em;
+        width: 86%;
+        height: 480px;
+        margin-top: .5em;
+        margin-left: 2.2em;
+        border-radius: var(--border);
+        margin-bottom: 1em;
     }
 
     /*------------------------------FOOTER---------------------------*/
     footer {
-    margin-left: 0em;
-    margin-right: .1em;
-    padding: 2em 2em;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(247, 243, 243);
-    width: 85%;
+        padding: 2em 2em;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(247, 243, 243);
+        width: 85%;
     }
     .footer_bloc_2 {
-    margin-left: 3.5em;
-    margin-right: 20%;
-    margin-top: 1em;
+        margin-left: 3.5em;
+        margin-right: 20%;
+        margin-top: -1em;
     }
     .footer_bloc_3 {
-    margin-left: 4em;
-    margin-top: 2em;
-    }
+        margin-left: 3.5em;
+        margin-top: 1em;
+        }
 }
