@@ -491,6 +491,10 @@ input:focus{
             .entete_elt {
                 display: flex;
             }
+            .container{
+                margin-left: .5em;
+                margin-top: 0em;
+            }
             .logo1 {
                 margin-left: 1em;
                 position: relative;
@@ -609,7 +613,7 @@ input:focus{
                 display: flex;
             }
             .bloc_title_showcase_rigth > i {
-                margin-left: 35%;
+                margin-left: 15%;
                 margin-top: .75em;
                 font-size: 25px;
                 margin-bottom: 0em;
@@ -774,12 +778,12 @@ input:focus{
                 width: 100%;
                 height: 10px;
             }
-        .bloc_title_showcase_rigth > i {
-            margin-left: 75%;
-            margin-top: .75em;
-            font-size: 25px;
-            margin-bottom: 0em;
-        }
+            .bloc_title_showcase_rigth > i {
+                margin-left: 65%;
+                margin-top: .75em;
+                font-size: 25px;
+                margin-bottom: 0em;
+            }
             .showcase_rigth {
                 display: flex;
                 flex-wrap: wrap;
@@ -944,7 +948,7 @@ input:focus{
             margin-left: 1em;
         }
         .bloc_title_showcase_rigth > i {
-            margin-left: 65%;
+            margin-left: 50%;
             margin-top: .75em;
             font-size: 25px;
             margin-bottom: 0em;
@@ -1028,7 +1032,6 @@ input:focus{
             padding-top: 2em;
             padding-right: 2em;
         }
-                    
         .icon {
             background: #DEEBFF;
             width: 45px;
@@ -1128,7 +1131,7 @@ input:focus{
             margin-left: 1em;
         }
         .bloc_title_showcase_rigth > i {
-            margin-left: 55%;
+            margin-left: 40%;
             margin-top: .75em;
             font-size: 25px;
             margin-bottom: 0em;
