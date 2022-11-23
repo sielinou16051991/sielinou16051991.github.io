@@ -91,7 +91,7 @@ header {
 .hebergement_activite {
     margin-top: -1em;
     display: flex;
-    margin-left:  63%;
+    margin-left:  60%;
 }
 .hebergement_activite > div {
     padding-left: 2em;
@@ -363,8 +363,8 @@ input:focus{
 }
 .bloc_title_showcase_rigth > i {
     margin-left: 35%;
-    margin-top: .75em;
-    font-size: 25px;
+    margin-top: 2em;
+    font-size: 20px;
     margin-bottom: 0em;
 }
 .title_showcase_rigth {
@@ -604,10 +604,9 @@ input:focus{
                 width: 100%;
             }
             .bloc_title_showcase_rigth > i {
-                margin-top: .75em;
-                font-size: 23px;
-                margin-left: 45%;
-                margin-bottom: 0em;
+                margin-top: 2em;
+                font-size: 20px;
+                margin-left: 40%;
             }
             .title_showcase_rigth{
                 margin-right: -4em;
@@ -625,7 +624,7 @@ input:focus{
             }
             .showcase_rigth_bloc {
                 margin: 0em;
-                wght: 100%;
+                width: 100%;
             }
             .showcase_rigth_bloc > div{
                 display: flex;
