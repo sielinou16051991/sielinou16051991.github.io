@@ -115,7 +115,7 @@ header {
 .icon {
     background: #DEEBFF;
     width: 45px;
-    height: 55px;
+    height: 54px;
     border-radius: 15px 0px 0px 15px;
 }
 .icon > i {
@@ -877,8 +877,8 @@ input:focus{
         }
         .icon {
             background: #DEEBFF;
-            width: 10%;
-            height: 55px;
+            width: 45px;
+            height: 54px;
             border-radius: 25% 0% 0% 25%;
         }
         .labelRecherche > i {
@@ -941,7 +941,7 @@ input:focus{
         .showcase_left_bloc {
             display: flex;
             flex-wrap: wrap;
-            width: 95%;
+            width: 100%;
             margin-left: -.3em;
         }
         .showcase_left_bloc > div {
@@ -1129,7 +1129,7 @@ input:focus{
             flex-wrap: wrap;
             background: #ffffff;
             border-radius: 10px;
-            padding-left: .5em;
+            padding-left: 1em;
             width: 95%;
         }
         .title_showcase_left {
@@ -1139,7 +1139,7 @@ input:focus{
             padding-top: 1em;
         }
         .showcase_left_bloc {
-            margin-left: 2em;
+            margin-left: 1em;
         }
         .showcase_left_bloc > div {
             float: left;

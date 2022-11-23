@@ -409,7 +409,7 @@ footer {
             display: flex;
             flex-wrap: wrap;
             margin-right: 1em;
-            width: 90%;
+            width: 95%;
         }
         .title_container_2 {
             margin-left: 2em;
@@ -534,7 +534,7 @@ footer {
             display: flex;
             flex-wrap: wrap;
             background-color: rgb(247, 243, 243);
-            width: 85%;
+            width: 89%;
         }
         .footer_bloc_2 {
             margin-left: 3.5em;
@@ -653,7 +653,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         background-color: rgb(247, 243, 243);
-        width: 85%;
+        width: 89%;
     }
     .footer_bloc_2 {
         margin-left: 3.5em;
