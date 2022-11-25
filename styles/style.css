@@ -59,7 +59,8 @@ header {
     margin-right: 1em;
 }
 .container{
-    margin-left: .5em;
+    margin-left: 2em;
+    margin-right: 0em;
     margin-top: 0em;
 }
 .entete_elt {
@@ -91,7 +92,7 @@ header {
 .hebergement_activite {
     margin-top: -1em;
     display: flex;
-    margin-left:  60%;
+    margin-left:  63%;
 }
 .hebergement_activite > div {
     padding-left: 2em;
@@ -103,7 +104,9 @@ header {
     margin-left: 1em;
 }
 .p2 {
-    padding-left: 1em;
+    margin-left: .7em;
+    margin-top: 0em;
+    font-size: 20px;
 }
 
 /* j'utillise calc() pour ne pas avoir le signe '-' */
@@ -132,8 +135,8 @@ header {
     font-size: 25px;
     width: 200px;
     height: 50px;
-    margin-top: 2px;
-    border: none;
+    margin-top: 0px;
+    border: #f7f7f8 solid .001px;
     color: #060a0f;
     background: #ffff;
 }
@@ -267,8 +270,8 @@ input:focus{
 /*---------------------------- contenaire / showcase -------------------------*/
 .showcase {
     display: flex;
-    padding: 1em;
     background: #fefeff;
+    width: 100%;
 }
 
 /* ----------------------------LEFT--------------------------------*/
@@ -286,7 +289,7 @@ input:focus{
     width: 60%;
 }
 .title_showcase_left {
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Raleway';
     padding-left: 1em;
     padding-top: 1em;
@@ -301,12 +304,12 @@ input:focus{
     padding: .1em;
     width: var(--div-left-width);
     height: var(--div-left-heigth);
-    background: #faf8f8;
+    background: #ffffff;
     border-radius: 25px;
 }
 .showcase_left_bloc > div:hover{
     opacity: .9;
-    background: #eaedf3;
+    background: #e5e6ec;
     box-shadow: 5px 2px 10px;
     cursor: pointer;
     transition: var(--transition);
@@ -362,7 +365,7 @@ input:focus{
     display: flex;
 }
 .bloc_title_showcase_rigth > i {
-    margin-left: 35%;
+    margin-left: 49%;
     margin-top: 2em;
     font-size: 20px;
     margin-bottom: 0em;
@@ -385,7 +388,7 @@ input:focus{
     padding-right: 1em;
     padding-top: .5em;
     padding-bottom: calc(1em - 2em);
-    width: 30%;
+    width: 40%;
 }
 .showcase_rigth_bloc {
     margin: 0em;
@@ -395,7 +398,7 @@ input:focus{
     width: var(--div-rigth-width);
     height: var(--div-rigth-heigth);
     margin: 1em;
-    background: #faf8f8;
+    background: #ffffff;
     border-radius: 25px;
 }
 .showcase_rigth_bloc > div:hover{
@@ -480,15 +483,10 @@ input:focus{
                /*------------------------------------------------TABLETTE--------------------------------------------*/
             header {
                padding-top: 0em;
-                padding-left: var(--padding-left);
                 flex-wrap: wrap;
             }
             .entete_elt {
                 display: flex;
-            }
-            .container{
-                margin-left: .5em;
-                margin-top: 0em;
             }
             .logo1 {
                 margin-left: 1em;
@@ -499,15 +497,18 @@ input:focus{
             }
             .hebergement_activite {
                 display: flex;
-                margin-left: 70%;
-                margin-top: -6.2em;
+                margin-left: 72%;
+                margin-top: -6.6em;
             }
             .hebergement_activite > div {
                 padding-left: 2em;
                 padding-top: 2em;
                 padding-right: 2em;
+            }         
+            .container {
+                margin-bottom: 0em;
+                width: 97%;
             }
-                        
             .icon {
                 background: #DEEBFF;
                 width: 45px;
@@ -545,7 +546,6 @@ input:focus{
     
             .showcase {
                 display: flex;
-                padding: 1em;
                 background: #fefeff;
             }
     
@@ -584,8 +584,6 @@ input:focus{
                 flex-wrap: wrap;
                 background: #eef1f3;
                 border-radius: 10px;
-                padding-left: calc(1em - 2em);
-                margin-right: 1em;
             }
             .showcase_left_bloc > div {
                 float: left;
@@ -620,7 +618,7 @@ input:focus{
                 margin-left: 1em;
                 width: 40%;
                 padding-top: .5em;
-                padding-bottom: calc(1em - 2em);
+                padding-bottom: calc(1em - 1em);
             }
             .showcase_rigth_bloc {
                 margin: 0em;
@@ -636,10 +634,6 @@ input:focus{
             }
             footer {
                 margin-top: 0em;
-            }
-    
-            .container {
-                margin-bottom: 0em;
             }
     
     }
@@ -670,6 +664,10 @@ input:focus{
                 padding-left: 2em;
                 padding-top: 2em;
                 padding-right: 2em;
+            }         
+            .container {
+                margin-bottom: 0em;
+                width: 96%;
             }
             .labelRecherche {
                 width: 10%;
@@ -709,9 +707,9 @@ input:focus{
 
             .showcase {
                 display: flex;
-                padding: 1em;
                 background: #fefeff;
                 flex-direction: column-reverse;
+                width: 97%;
             }
 
             /* ----------------------------LEFT--------------------------------*/
@@ -772,28 +770,31 @@ input:focus{
             /*------------------------------------ RIGTH -----------------------------*/
             .bloc_title_showcase_rigth {
                 display: flex;
-                width: 100%;
-                height: 10px;
+                margin-top: 0em;
             }
-            .title_showcase_rigth{
-                margin-right: -2em;
+            .title_showcase_rigth {
+                margin-left: .5em;
+                margin-top: -21em;
+                width: 80%;
+                position: absolute;
+                height: 0%;
             }
             .bloc_title_showcase_rigth > i {
-                margin-left: 75%;
-                margin-top: .75em;
+                margin-top: -16em;
+                margin-left: 96%;
+                height: 0%;
                 font-size: 25px;
                 margin-bottom: 0em;
             }
             .showcase_rigth {
                 display: flex;
-                flex-wrap: wrap;
+                flex-direction: column-reverse;
                 background: #eef1f3;
                 border-radius: 10px;
                 margin-top: 1em;
-                margin-left: -.3em;
+                margin-left: .2em;
                 padding-top: .5em;
-                padding-bottom: calc(1em - 2em);
-                width: 99%;
+                width: 97%;
             }
             .showcase_rigth_bloc {
                 display: flex;
@@ -857,6 +858,7 @@ input:focus{
             margin-left: 0%;
             width: 50%;
             text-align: center;
+            border-bottom: #d9dde2 solid 1px;
         }
         .lien1:hover{
             border-top: none;
@@ -865,7 +867,11 @@ input:focus{
             border-bottom: #0065FC solid 1px;
             width: 50%;
             border-top: none;
-        }         
+        }           
+        .container {
+            margin-bottom: 0em;
+            width: 96%;
+        }    
         .labelRecherche > label {
             position: absolute;
             opacity: 0;
@@ -916,7 +922,8 @@ input:focus{
             padding: 1em;
             background: #fefeff;
             flex-direction: column-reverse;
-        }
+            width: 95%;
+        } 
     
         /* ----------------------------LEFT--------------------------------*/
         /*
@@ -964,10 +971,11 @@ input:focus{
         }
         .title_showcase_rigth{
             margin-right: -5em;
+            position: absolute;
         }
         .bloc_title_showcase_rigth > i {
-            margin-left: 70%;
-            margin-top: .75em;
+            margin-left: 90%;
+            margin-top: 1.5em;
             font-size: 25px;
             margin-bottom: 0em;
         }
@@ -1041,6 +1049,7 @@ input:focus{
             text-align: center;
         }
         .lien2{
+            border-bottom: #d9dde2 solid 1px;
             margin-left: 0%;
             width: 50%;
             text-align: center;
@@ -1053,6 +1062,9 @@ input:focus{
             width: 50%;
             border-top: none;
         } 
+        .container {
+            width: 87%;
+        }
         .icon {
             background: #DEEBFF;
             width: 45px;
@@ -1159,6 +1171,9 @@ input:focus{
             display: flex;
             padding: .5em;
             background: #fefeff;
+        }
+        .text_bloc_left_end{
+            margin-left: -.8em;
         }
 
             /*------------------------------------ RIGTH -----------------------------*/

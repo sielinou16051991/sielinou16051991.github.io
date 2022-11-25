@@ -15,7 +15,7 @@
  --paddingLeft: .5em;
  --paddingBottom: .3em;
  --paddingRigth: .3em;
- --box-shadow: 4px 6px 2px 3px rgb(240, 240, 240);
+ --box-shadow: 4px 6px 2px 3px rgb(245, 245, 245);
  --transition: .1s ease;
  
 /*--------------------première et troisième div------------------------------*/
@@ -57,12 +57,13 @@
 }
 .container_2{
     display: flex;
-    width: 95%;
+    margin-left: -1.5em;
+    width: 100%;
 }
 .title_container_2 {
     font-family: var(--fontFamily);
     font-size: 25px;
-    margin-left: 1em;
+    margin-left: 0em;
 }
 /*--------------------première et troisième div------------------------------*/
 .container_2_bloc_1 {
@@ -263,11 +264,11 @@ footer {
     @media only screen and (min-width: 975px) and (max-width: 1300px){
                 
       /*------------------------------------------------TABLETTE --------------------------------------------*/
-      .container_2{
+            .container_2{
                 display: flex;
-                margin-right: 1em;
-                margin-left: 1em;
-                width: 96%;
+                margin-right: 0em;
+                margin-left: 0em;
+                width: 98%;
             }
         /*--------------------première et troisième div------------------------------*/
         .container_2_bloc_1 {
@@ -390,15 +391,15 @@ footer {
     .container_2{
         display: flex;
         margin-right: 1em;
-        width: 95%;
+        width: 99%;
     }
     footer {
         padding: 2em 2em;
         display: flex;
         flex-wrap: wrap;
         background-color: rgb(247, 243, 243);
-        margin-left: 1em;
-        width: 90%;
+        margin-left: 0em;
+        width: 92%;
     }
 }
 
@@ -558,14 +559,14 @@ footer {
         width: 97%;
     }
     .title_container_2 {
-        margin-left: 2em;
+        margin-left: 1em;
     }
     /*--------------------première et troisième div------------------------------*/
     .container_2_bloc_1 {
     width: 100%;
     background-color: var(--bgcolor);
     height: 240px;
-    margin-left: 2.5em;
+    margin-left: 2em;
     margin-top: 0em;
     border-radius: var(--border);
     box-shadow: var(--box-shadow);
@@ -580,7 +581,7 @@ footer {
     width: 100%;
     background-color: var(--bgcolor);
     height: 240px;
-    margin-left: 2.5em;
+    margin-left: 2em;
     margin-top: .5em;
     margin-bottom: 1em;
     border-radius: var(--border);
