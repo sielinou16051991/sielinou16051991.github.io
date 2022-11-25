@@ -22,7 +22,7 @@
     --phone-div-left-width: 100%;
     --phone-div-left-heigth: auto;
     --phone-img-left-width: 95%;
-    --phone-img-left-heigth: 140px;
+    --phone-img-left-heigth: 190px;
     /*---------------rigth-------*/
     --phone-div-rigth-width: 90%;
     --phone-div-rigth-heigth: 150px;
@@ -870,7 +870,7 @@ input:focus{
         }           
         .container {
             margin-bottom: 0em;
-            width: 96%;
+            width: 95%;
         }    
         .labelRecherche > label {
             position: absolute;
@@ -954,16 +954,13 @@ input:focus{
             margin: 1em;
             margin: 1em;
             width: 40%;
-            height: var(--phone-div-left-heigth);
+            height: auto;
             background: #ffffff;
             box-shadow: 3px 5px rgb(240, 234, 234);
         }
-        .showcase {
-            display: flex;
-            padding: .5em;
-            background: #fefeff;
+        .showcase_left_bloc > div > a> img {
+            height: 150px;
         }
-
             /*------------------------------------ RIGTH -----------------------------*/
         .bloc_title_showcase_rigth {
             display: flex;
