@@ -1217,7 +1217,7 @@ input:focus{
             backface-visibility: hidden;
         }
        .showcase_rigth_text > .showcase_left_bloc_icon {
-            margin-top: 2.5em;
+            margin-top: 2em;
             margin-left: .5em;
             display: flex;
         }
