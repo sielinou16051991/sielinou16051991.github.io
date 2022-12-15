@@ -76,7 +76,15 @@ header {
     opacity: 1;
     transition: .5s ease;
 }
+.lien1 > a, .lien2 > a{
+    text-decoration: none;
+    color: #000;
+}
 .lien1{
+    color: #0065FC;
+    border-top: #0065FC solid .9px;
+}
+.lien1 > a{
     color: #0065FC;
 }
 .lien1:hover {
@@ -84,6 +92,10 @@ header {
     cursor: pointer;
     border-top: #0065FC solid .9px;
 }
+.lien2 > a:hover{
+    color: #0065FC;
+}
+
 .lien2:hover{
     cursor: pointer;
     text-decoration: dashed;
@@ -817,7 +829,7 @@ input:focus{
         
     }
     
-    @media all and (min-width: 600px) and (max-width: 768px){
+    @media all and (min-width: 576px) and (max-width: 768px){
         /*-----------------------------------------TELEPHONE-------------------------------------*/
         header {
             padding-top: 1em;
@@ -1007,7 +1019,7 @@ input:focus{
         }
 }
 
-    @media all and (max-width: 600px) {
+    @media all and (max-width: 576px) {
         
         /*-----------------------------------------TELEPHONE-------------------------------------*/
         header {
