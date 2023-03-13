@@ -306,6 +306,10 @@ input:focus{
     padding-left: 1em;
     padding-top: 1em;
 }
+.showcase_left_bloc  div img {
+    object-fit: cover;
+    object-position: center;
+}
 .showcase_left_bloc {
     margin-right: 1em;
     width: 100%;
@@ -431,6 +435,10 @@ input:focus{
     height: var(--img-rigth-heigth);
     backface-visibility: hidden;
 }
+.showcase_rigth_bloc div a img {
+    object-fit: cover;
+    object-position: center;
+}
 .p1 {
     font-family: 'Raleway';
     margin-top: .5em;
@@ -470,6 +478,10 @@ input:focus{
 }
 .showcase_left_bloc_icon_i{
     color: rgb(190, 164, 164);
+}
+.container_2 div a img {
+    object-fit: cover;
+    object-position: center;
 }
 /*
 #container {
